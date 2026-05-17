@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Controle de Gastos</h1>
+
+        <section id="listas">
+
+            <div class="lista">
+                <h2>Let</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Destino</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Uber</td>
+                            <td>R$ 299,01</td>
+                        </tr>
+                        <tr>
+                            <td>Jantinhabelavista</td>
+                            <td>R$ 14,00</td>
+                        </tr>
+                        <tr>
+                            <td>PAY2ALL</td>
+                            <td>R$ 14,61</td>
+                        </tr>
+                        <tr>
+                            <td>PagSeguro International</td>
+                            <td>R$ 14,61</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="total">Total: R$ 342,23</p>
+            </div>
+
+            <div class="lista">
+                <h2>Mike</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Destino</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Google One</td>
+                            <td>R$ 4,50</td>
+                        </tr>
+                        <tr>
+                            <td>Crunchyroll</td>
+                            <td>R$ 19,90</td>
+                        </tr>
+                        <tr>
+                            <td>Google CapCut Video</td>
+                            <td>R$ 6,50</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro Francisco de Oli</td>
+                            <td>R$ 18,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="total">Total: R$ 48,90</p>
+            </div>
+
+            <div class="lista">
+                <h2>Pai</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Destino</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fuscão Acessórios</td>
+                            <td>R$ 116,00</td>
+                        </tr>
+                        <tr>
+                            <td>MP *Paulogiovanel</td>
+                            <td>R$ 200,00</td>
+                        </tr>
+                        <tr>
+                            <td>Carrefour Gos</td>
+                            <td>R$ 449,90</td>
+                        </tr>
+                        <tr>
+                            <td>Auto Posto Olímpio</td>
+                            <td>R$ 50,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="total">Total: R$ 815,90</p>
+            </div>
+
+        </section>
+
+        <section class="formulario">
+            <h2>Adicionar novo gasto</h2>
+
+            <form id="form-gasto">
+                <label for="lista">Nome da lista:</label>
+                <input type="text" id="lista" placeholder="Ex: Casa, Mercado, Faculdade">
+
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" placeholder="Ex: Supermercado">
+
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" step="0.01" placeholder="Ex: 25.50">
+
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="./Script.js"></script>
+</body>
+
+</html>
