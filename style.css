@@ -121,3 +121,15 @@ tbody tr:hover {
 tbody tr:hover td {
     color: #ffffff;
 }
+
+th:nth-child(2),
+td:nth-child(2) {
+    text-align: right;
+    width: 35%;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+    text-align: left;
+    width: 65%;
+}
